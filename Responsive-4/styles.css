@@ -68,7 +68,8 @@ main{
 	border : 1px solid white
 }
 
-.title {
+h1 {
+	font-size: 2em;
 	padding: 0 0 20px 0;
 }
 
