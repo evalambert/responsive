@@ -63,7 +63,7 @@ main{
 }
 
 .box{
-	width : 50%;
+	/* width : 50%; */
 	padding: 20px;
 	border : 1px solid white
 }
@@ -83,13 +83,10 @@ main{
 		flex-wrap: wrap;
 	}
 	.small{
-		width :66%;
+		flex: 2;
 	}
 	.medium {
-		width: 20%;
-	}
-	.large{
-		width: 100%;
+		flex: 1;
 	}
 }
 
